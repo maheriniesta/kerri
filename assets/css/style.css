@@ -1,0 +1,593 @@
+:root{
+    --prmary: #e65f78 !important;
+}
+/* start nav  */
+.color-prmary{
+    color: var(--prmary)!important;
+}
+.nav--iteam{
+    transition: all .5s;
+}
+.nav--iteam:hover{
+    color: var(--prmary) !important;
+
+}
+@media (max-width :567px){
+    .nav--s{
+        margin-left: 100px;
+        
+    }
+    .header--h2::after{
+        font-size: 16px;
+        
+        /* margin: -80px auto; */
+        position: absolute;
+        top: -49px;
+        right: -84px;
+        left: -93px;
+        width: 171px;
+    }
+    .header h1{
+        margin: 5px auto;
+    }
+    .btn--header{
+        width: 100%;
+    }
+    .header .header--p{
+      
+        margin: 26px auto;
+    }
+}
+/* end nav */
+/* start header  */
+.header{
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.header::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0 , .5);
+}
+.header--text{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.btn--header{
+    transition: .5s;
+    height: 50px;
+    line-height: 32px;
+}
+.btn--header:hover{
+    background-color: var(--prmary);
+}
+.header--h2{
+    font-size: 32px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.header--h2::after{
+    content: '';
+    
+    animation-name:text-transform ;
+    animation-duration: 15s;
+    animation-direction:normal;
+    animation-iteration-count:infinite;
+}
+@keyframes text-transform{
+    0%{
+        content:'H |';
+    }
+    1%{
+        content:'HI |';
+    }
+    3%{
+        content:'H |';
+    }
+    4%{
+        content:' |';
+    }
+    5%{
+        content:'M |';
+    }
+    6%{
+        content:'MY |';
+    }
+    7%{
+        content:'MY N |';
+    }
+    8%{
+        content:'MY NA |';
+    }
+    9%{
+        content:'MY NAM |';
+    }
+    10%{
+        content:'MY NAME |';
+    }
+    11%{
+        content:'MY NAME  |';
+    }
+    12%{
+        content:'MY NAME I |';
+    }
+    13%{
+        content:'MY NAME IS |';
+    }
+    14%{
+        content:'MY NAME IS  |';
+    }
+    15%{
+        content:'MY NAME IS MA |';
+    }
+    16%{
+        content:'MY NAME IS MAH |';
+    }
+    17%{
+        content:'MY NAME IS MAHE |';
+    }
+    18%{
+        content:'MY NAME IS MAHER |';
+    }
+    19%{
+        content:'MY NAME IS MAHER  |';
+    }
+    20%{
+        content:'MY NAME IS MAHER S |';
+    }
+    21%{
+        content:'MY NAME IS MAHER SA |';
+    }
+    22%{
+        content:'MY NAME IS MAHER SAI |';
+    }
+    23%{
+        content:'MY NAME IS MAHER SAIF |';
+    }
+    24%{
+        content:'MY NAME IS MAHER SAI |';
+    }
+    25%{
+        content:'MY NAME IS MAHER SA |';
+    }
+    26%{
+        content:'MY NAME IS MAHER S |';
+    }
+    27%{
+        content:'MY NAME IS MAHER  |';
+    }
+    28%{
+        content:'MY NAME IS MAHER |';
+    }
+    29%{
+        content:'MY NAME IS MAHE |';
+    }
+    30%{
+        content:'MY NAME IS MAH |';
+    }
+    31%{
+        content:'MY NAME IS MA |';
+    }
+    32%{
+        content:'MY NAME IS M |';
+    }
+    33%{
+        content:'MY NAME IS  |';
+    }
+    34%{
+        content:'MY NAME IS |';
+    }
+    35%{
+        content:'MY NAME I |';
+    }
+    36%{
+        content:'MY NAME  |';
+    }
+    37%{
+        content:'MY NAME |';
+    }
+    38%{
+        content:'MY NAM |';
+    }
+    39%{
+        content:'MY NA |';
+    }
+    40%{
+        content:'MY N |';
+    }
+    41%{
+        content:'MY  |';
+    }
+    42%{
+        content:'MY |';
+    }
+    43%{
+        content:'M |';
+    }
+    44%{
+        content:'T |';
+    }
+    45%{
+        content:'TH |';
+    }
+    46%{
+        content:'THA |';
+    }
+    47%{
+        content:'THAN |';
+    }
+    48%{
+        content:'THANK |';
+    }
+    49%{
+        content:'THANK  |';
+    }
+    50%{
+        content:'THANK Y |';
+    }
+    51%{
+        content:'THANK YO |';
+    }
+    52%{
+        content:'THANK YOU |';
+    }
+    53%{
+        content:'THANK YO |';
+    }
+    54%{
+        content:'THANK Y |';
+    }
+    55%{
+        content:'THANK  |';
+    }
+    56%{
+        content:'THANK |';
+    }
+    57%{
+        content:'THAN |';
+    }
+    58%{
+        content:'THA |';
+    }
+    59%{
+        content:'TH |';
+    }
+    60%{
+        content:'T |';
+    }
+    61%{
+        content:' |';
+    }
+    62%{
+        content:'T |';
+    }
+    63%{
+        content:'TA |';
+    }
+    64%{
+        content:'TAR |';
+    }
+    65%{
+        content:'TARI |';
+    }
+    66%{
+        content:'TARIQ |';
+    }
+    67%{
+        content:'TARIQ  |';
+    }
+    68%{
+        content:'TARIQ S |';
+    }
+    69%{
+        content:'TARIQ SH |';
+    }
+    70%{
+        content:'TARIQ SHR |';
+    }
+    71%{
+        content:'TARIQ SHRE |';
+    }
+    72%{
+        content:'TARIQ SHREE |';
+    }
+    73%{
+        content:'TARIQ SHREEM |';
+    }
+    74%{
+        content:'TARIQ SHREE |';
+    }
+    75%{
+        content:'TARIQ SHRE |';
+    }
+    76%{
+        content:'TARIQ SHR |';
+    }
+    77%{
+        content:'TARIQ SH |';
+    }
+    78%{
+        content:'TARIQ S |';
+    }
+    79%{
+        content:'TARIQ  |';
+    }
+    80%{
+        content:'TARIQ |';
+    }
+    81%{
+        content:'TARI |';
+    }
+    82%{
+        content:'TAR |';
+    }
+    83%{
+        content:'TA |';
+    }
+    84%{
+        content:'T |';
+    }
+    85%{
+        content:'T |';
+    }
+    86%{
+        content:' |';
+    }
+    87%{
+        content:'E |';
+    }
+    88%{
+        content:'E |';
+    }
+    89%{
+        content:'EN |';
+    }
+    890%{
+        content:'EN |';
+    }
+    91%{
+        content:'END. |';
+    }
+    92%{
+        content:'END.. |';
+    }
+    93%{
+        content:'END... |';
+    }
+    94%{
+        content:'END.. |';
+    }
+    95%{
+        content:'END. |';
+    }
+    96%{
+        content:'EN |';
+    }
+    97%{
+        content:'E |';
+    }
+    98%{
+        content:'E |';
+    }
+    99%{
+        content:' |';
+    }
+    100%{
+        content:' |';
+    }
+
+}
+.header--span{
+    display: block;
+    border-radius: 4px;
+    margin:15px auto;
+    width: 30px;
+    height: 50px;
+}
+.header--span p{
+    color: #fff;
+    margin:5px auto;
+    
+    animation-name: span--h;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite
+}
+@keyframes span--h{
+    from{
+        transform: translateY(16px);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+/* ent header  */
+/* start about */
+.about--h2{
+    font-weight: 700;
+}
+.about h2{
+    font-weight: 300;
+}
+.about ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.sohal--media{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: .5s;
+    
+}
+.sohal--media:hover{
+    color: var(--prmary);
+    border-color: var(--prmary)!important;
+}
+/* end about */
+/* start service */
+.service h2{
+    font-weight: 300
+}
+.searvice--item{
+    cursor: pointer;
+}
+.service .wing{
+    font-weight: 700;
+}
+.service h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.service .lain--service{
+    display: block;
+    width: 40px;
+    height: 2px;
+    margin: auto;
+    background-color: var(--prmary);
+    transition: .5s;
+    
+}
+.searvice--item:hover .lain--service{
+    width: 60px;
+}
+.service--i{
+    opacity: 0;
+}
+/* end service */
+/* start hire me */
+.hire-me-btn{
+    background-color: var(--prmary);
+    color: #fff;
+}
+.hire-me-btn:hover{
+    color: #fff;
+}
+/* end hire me */
+/* start client */
+.client h2{
+    font-weight: 400;
+}
+.client .client--s{
+    font-weight: 600;
+}
+.client--nav .nav-item .nav-link{
+    color: #000 ;
+    text-transform: capitalize;
+    padding: 5px;
+    margin: 5px;
+  
+}
+.nav-pills .nav-link.active{
+    color: #fff;
+    background-color: var(--prmary);
+    padding: 5px;
+}
+.nav-pills .nav-link:hover{
+    background-color: var(--prmary);
+    padding: 5px;
+    color: #fff;
+}
+.client--img{
+    cursor: pointer;
+    overflow: hidden;
+}
+.overlay--p{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: .5s;
+    opacity: 0;
+    
+    
+    
+    
+}
+.client--img:hover .overlay--p{
+    transform: translateY(0%);
+    opacity: 1;
+}
+/* end client */
+/* start blog */
+.blog h2{
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+.blog--s{
+    font-weight: 600;
+}
+.blog h3{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+/* end blog */
+/* start contact */
+.contact h2{
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+.contact .contact--s{
+    font-weight: 600;
+}
+.contact h3{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.contact .contact--p{
+    font-size: 21px;
+}
+.btn--custom{
+    background-color: var(--prmary);
+    transition: .5s;
+}
+.btn--custom:hover{
+    background-color: #d8576f;
+    border-color: #d8576f;
+}
+/* end contact */
+/* start footer  */
+.footer{
+    background-color: rgba(33,37,41, 1);
+
+}
+.footer ul li a i{
+    width: 42px;
+    height: 42px;
+    transition: .5s;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.footer ul li:hover i{
+    color: var(--prmary)!important;
+}
+/* end footer  */
